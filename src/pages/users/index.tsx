@@ -15,7 +15,7 @@ export default function UserList() {
               Lista de usuários
             </Heading>
             <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiAddLine} />}>
-              Criar Novo
+              Novo
             </Button>
           </Flex>
 
