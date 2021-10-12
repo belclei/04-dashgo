@@ -47,7 +47,14 @@ export default function UserList() {
                   <Text>05 de Outubro de 2018</Text>
                 </Td>
                 <Td>
-                  <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiPencilLine} />}>
+                  <Button
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
+                    colorScheme="pink"
+                    variant="outline"
+                    leftIcon={<Icon as={RiPencilLine} />}
+                  >
                     Editar
                   </Button>
                 </Td>
